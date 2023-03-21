@@ -1,0 +1,105 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E3E3E3;
+    text-decoration: none;
+}
+
+
+.container {
+    margin-top: 178px;
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #EDEDED;
+    width: 690px;
+    height: 745px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 102px;
+    margin-top: 80px;
+    filter: drop-shadow(1px 4px 25px rgba(0, 0, 0, 0.1));
+}
+
+.campos {
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 431px;
+    height: 75px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    padding-left: 45px;
+    background-color: #f8f8f8;
+}
+
+#tituloLogin {
+    margin: 0px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+.button {
+    border-radius: 30px;
+    width: 482px;
+    height: 90px;
+    background-color: #1C91FC;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    font-family: Poppins;
+    font-weight: 500;
+    color: white;
+    font-size: 36px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#password {
+    margin-top: 50px;
+}
+
+
+#tituloLogin {
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 500;
+    color: black;
+}
+
+input[type="email"]:focus {
+    outline: 1px solid #1C91FC;
+}
+
+
+input[type="password"]:focus {
+    outline: 1px solid #1C91FC;
+}
+
+#register {
+    color: #1C91FC;
+    cursor: pointer;
+}
+
+.buttonop {
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+.hiperlink {
+    color: #1C91FC;
+    cursor: pointer;
+    text-decoration: none;
+}

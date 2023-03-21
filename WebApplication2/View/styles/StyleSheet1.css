@@ -1,0 +1,152 @@
+﻿body {
+    font-family: Roboto;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #E3E3E3;
+}
+
+input[type=text]:focus {
+    outline: 1px solid #1C91FC;
+}
+
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    filter: invert(0.8);
+    padding: 15px;
+    font-family: Roboto;
+}
+
+input[type="date"]:focus {
+    outline: 1px solid #1C91FC;
+}
+
+input[type="select"]:focus {
+    outline: 1px solid #1C91FC;
+}
+
+input[type="email"]:focus {
+    outline: 1px solid #1C91FC;
+}
+
+input[type="password"]:focus {
+    outline: 1px solid #1C91FC;
+}
+
+.forms {
+    display: flex;
+    margin: 0 auto;
+    gap: 60px;
+    justify-content: center;
+}
+
+.main-container {
+    margin: 0 auto;
+    width: 750px;
+    margin-top: 40px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #EDEDED;
+    filter: drop-shadow(1px 4px 25px rgba(0, 0, 0, 0.1));
+}
+
+.form-container {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#Button1 {
+    width: 630px;
+    height: 75px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #1C91FC;
+    border: 0px;
+    color: white;
+    font-weight: 700;
+    font-family: Roboto;
+    font-size: 28px;
+    outline: 0px;
+    font-family: Poppins;
+    align-items: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 40px;
+    align-self: center;
+}
+
+
+
+
+.selectGender {
+    display: flex;
+    flex-direction: column;
+}
+
+    .selectGender select {
+        margin-top: 10px;
+        height: 52px;
+        font-family: Roboto;
+        width: 272px;
+        background-color: #f8f8f8;
+        outline: none;
+        border: 0px;
+        border-radius: 20px;
+        padding-left: 15px;
+        cursor: pointer;
+        color: #344040;
+    }
+
+input {
+    border-radius: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid transparent;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    align-items: center;
+    font-family: Roboto;
+    font-weight: 300;
+    width: 250px;
+    height: 30px;
+    font-size: 14px;
+    color: black;
+    outline: 0px;
+    margin-bottom: 25px;
+    filter: drop-shadow(1px 2px 5px rgba(0, 0, 0, 0.01));
+}
+
+.password {
+    font-family: Roboto;
+}
+
+.buttonop {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.hiperlink {
+    color: #1C91FC;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.title {
+    margin-top: 60px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+input {
+    cursor: text;
+}
